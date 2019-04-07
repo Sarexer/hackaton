@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorPrimary">#3067d7</color>
+    <color name="colorPrimaryLight">#7094ff</color>
+    <color name="colorPrimaryDark">#003ea5</color>
+    <color name="secondaryColor">#00e5ff</color>
+    <color name="secondaryLightColor">#6effff</color>
+    <color name="secondaryDarkColor">#00b2cc</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="grey">#e7e7e7</color>
+    <color name="grey2">#ebf0f4</color>
+    <color name="grey3">#aaadb2</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="randtext">#3E476A</color>
+    <color name="violet">#673ab7</color>
+    <color name="invisible">#00a5e0f2</color>
+    <color name="chatBack">#878FAD</color>
+    <color name="blue">#bbdefb</color>
+    <color name="bac_grey">#f9f9f9</color>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primaryTextColor"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/login_progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorAccent"
+
+                android:visibility="invisible"/>
+            tools:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editTxtEntryLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+                android:gravity="center"
+                android:hint="почта"
+                android:inputType="none|textShortMessage"
+                android:paddingRight="50dp"
+                android:textColorLink="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTxtEntryPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="пароль"
+                android:inputType="textPassword"
+                android:paddingRight="50dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnEntr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/btn_main_send"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_white_48dp"
+                android:paddingLeft="35dp"
+                android:text="Войти"
+                android:textAppearance="@style/AppIntroDefaultText"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/sign_in_button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/btn_main_vk"
+                    android:elevation="5dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/vklogo" />
+
+                <ImageButton
+                    android:id="@+id/sign_in_button_google"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/btn_main_vk"
+                    android:elevation="5dp"
+                    app:srcCompat="@drawable/googlelogo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtViewPrivacy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:textSize="12sp"
+                    android:text="Продолжая, вы принимаете Условия использования и Политику конфиденциальности" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/illustration" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/chat1Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/magazToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Мой баланс: 100"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Как получить баллы:"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Посетить мероприятие = 200 баллов"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Одержать победу = 500 баллов"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Защитить проект = 300 баллов"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Пригласить друга = 150 баллов"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Как потратить баллы:"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Магазин"
+        android:background="@drawable/start_btn_entr"
+        android:textColor="@color/primaryTextColor"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>

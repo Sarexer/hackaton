@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1066285883009",
+    "firebase_url": "https://rand-c3af3.firebaseio.com",
+    "project_id": "rand-c3af3",
+    "storage_bucket": "rand-c3af3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066285883009:android:fae59dcb1a8ca7d8",
+        "android_client_info": {
+          "package_name": "ru.cppinfo.flymer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066285883009-25rar2vu7ektph5s91fqqldgn8if2p3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6wJ3L4iZ21FH4TUinrgazsc98VlcmEU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

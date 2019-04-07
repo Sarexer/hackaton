@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="10dp"
+    android:layout_width="match_parent">
+    <item
+        android:title="Зарегестрироваться"
+        android:id="@+id/action_done"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_done_black_24dp"
+        android:contentDescription="Зарегестрироваться"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">IGO</string>
+    <string name="new_message">У вас новое сообщение!</string>
+    <string name="how_it_works">
+        Всё просто. Вы запускаете записку и сразу же получаете записку от кого-то еще.
+   На записки можно отвечать.
+   Переписка продлится столько, сколько Вы и Ваш собеседник захотите ее поддерживать, будь то несколько минут или несколько месяцев.
+    Запустите несколько записок, поймайте еще несколько и переписывайтесь с разными людьми одновременно.
+
+        \n\nЧеловек, который это сейчас читает, если тебе нравится приложение, пожалуйста, напиши отзыв или хотя бы поставь хорошую оценку в Google Play.
+        Это поможет развитию приложения. Будет больше людей, значит ты сможешь быстрее находить интересных собеседников.
+        Если тебе по какой то причине не нравится приложение, то, пожалуйста, тоже оставь отзыв,
+        опиши то, что тебе не нравится. Это также поможет развитию приложения.</string>
+
+    <string name="digits">qwertyuiopasdfghjklzxcvbnmйцукенгшщзхъфывапролджэячсмитьбюёQWERTYUIOPASDFGHJKLZXCVBNMЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁ1234567890@:;_-#()+.,?!\=%*[]{}|~^&amp;&lt;&gt;&quot;&apos;</string>
+    <string name="hello">asd;las;dlas;dlasd</string>
+    <string name="privacy_policy">
+        <![CDATA[
+        Продолжая, вы принимаете <font color=\'#3067d7\'>Условия использования</font> и <font color=\'#3067d7\'>Политику конфиденциальности</font>
+        ]]>
+</string>
+    <integer name="com_vk_sdk_AppId">6627050</integer>
+
+    <string name="chat_banner_id">ca-app-pub-2247958250592880/5221042831</string>
+    <string name="conv_banner_id">ca-app-pub-2247958250592880/5163657927</string>
+    <string name="main_banner_id">ca-app-pub-2247958250592880/1883243686</string>
+    <string name="test_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="open">Открыть</string>
+    <string name="close">Закрыть</string>
+
+</resources>
